@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/c302f1cbb55c45d09746383cdbd5fe38/artifacts
+end_time: 1733303857878
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c302f1cbb55c45d09746383cdbd5fe38
+run_name: abrasive-seal-527
+run_uuid: c302f1cbb55c45d09746383cdbd5fe38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733303842105
+status: 3
+tags: []
+user_id: Sid

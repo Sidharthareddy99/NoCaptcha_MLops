@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/973eb8e220fc4250b8d6a661547bf4ce/artifacts
+end_time: 1733304336368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 973eb8e220fc4250b8d6a661547bf4ce
+run_name: legendary-vole-982
+run_uuid: 973eb8e220fc4250b8d6a661547bf4ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733304330538
+status: 3
+tags: []
+user_id: Sid

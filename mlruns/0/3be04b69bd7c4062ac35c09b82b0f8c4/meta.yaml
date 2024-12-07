@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/3be04b69bd7c4062ac35c09b82b0f8c4/artifacts
+end_time: 1733302398007
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3be04b69bd7c4062ac35c09b82b0f8c4
+run_name: unruly-cub-294
+run_uuid: 3be04b69bd7c4062ac35c09b82b0f8c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733302384860
+status: 3
+tags: []
+user_id: Sid

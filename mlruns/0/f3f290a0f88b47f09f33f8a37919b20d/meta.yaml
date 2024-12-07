@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/f3f290a0f88b47f09f33f8a37919b20d/artifacts
+end_time: 1733304455173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3f290a0f88b47f09f33f8a37919b20d
+run_name: unequaled-seal-251
+run_uuid: f3f290a0f88b47f09f33f8a37919b20d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733304449450
+status: 3
+tags: []
+user_id: Sid

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/a05f1ebffe8644ff8d5c3a67ef3a05ff/artifacts
+end_time: 1733250779812
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a05f1ebffe8644ff8d5c3a67ef3a05ff
+run_name: judicious-kit-59
+run_uuid: a05f1ebffe8644ff8d5c3a67ef3a05ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733250774558
+status: 3
+tags: []
+user_id: Sid

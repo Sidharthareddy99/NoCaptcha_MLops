@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  mongo_uri: mongodb+srv://sidharthalocal:sid123@nocaptchacluster.zaly6.mongodb.net/?retryWrites=true&w=majority&appName=NoCaptchaCluster
+  database_name: sidharthalocal
+  collection_name: NoCaptchaCluster

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/c9d8b9a9358a4df89188be69010dda5d/artifacts
+end_time: 1733301979315
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9d8b9a9358a4df89188be69010dda5d
+run_name: funny-perch-52
+run_uuid: c9d8b9a9358a4df89188be69010dda5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733301965788
+status: 3
+tags: []
+user_id: Sid

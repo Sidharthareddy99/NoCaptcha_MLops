@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/e86addca20ae4648b9388607710e8986/artifacts
+end_time: 1733303479375
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e86addca20ae4648b9388607710e8986
+run_name: delightful-fox-938
+run_uuid: e86addca20ae4648b9388607710e8986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733303459645
+status: 3
+tags: []
+user_id: Sid

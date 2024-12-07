@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/60ed5ab727ad40f4b08a3b5bceb06c0b/artifacts
+end_time: 1733250464884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60ed5ab727ad40f4b08a3b5bceb06c0b
+run_name: popular-shoat-863
+run_uuid: 60ed5ab727ad40f4b08a3b5bceb06c0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733250458544
+status: 3
+tags: []
+user_id: Sid

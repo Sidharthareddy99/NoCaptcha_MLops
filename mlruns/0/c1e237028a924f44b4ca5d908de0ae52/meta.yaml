@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/c1e237028a924f44b4ca5d908de0ae52/artifacts
+end_time: 1733301673463
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1e237028a924f44b4ca5d908de0ae52
+run_name: overjoyed-deer-704
+run_uuid: c1e237028a924f44b4ca5d908de0ae52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733301656251
+status: 3
+tags: []
+user_id: Sid

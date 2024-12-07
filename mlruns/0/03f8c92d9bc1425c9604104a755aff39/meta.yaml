@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/03f8c92d9bc1425c9604104a755aff39/artifacts
+end_time: 1733250058685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03f8c92d9bc1425c9604104a755aff39
+run_name: receptive-whale-876
+run_uuid: 03f8c92d9bc1425c9604104a755aff39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733250048115
+status: 3
+tags: []
+user_id: Sid

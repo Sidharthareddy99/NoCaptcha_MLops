@@ -1,0 +1,25 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  mongo_uri: mongodb+srv://sidharthalocal:sid123@nocaptchacluster.zaly6.mongodb.net/?retryWrites=true&w=majority&appName=NoCaptchaCluster
+  database_name: sidharthalocal
+  collection_name: NoCaptchaCluster
+
+data_preprocessing:
+  root_dir : artifacts/data_ingestion/data.csv
+  train_data_path : artifacts/data_preprocessing/train.csv
+  test_data_path: artifacts/data_preprocessing/test.csv
+  test_size: 0.1
+  preprocess_model_save_path: artifacts/training/preprocess_model/preprocess_model.joblib
+
+data_training:
+  root_dir : artifacts/data_ingestion/data.csv
+  train_data_path : artifacts/data_preprocessing/train.csv
+  test_data_path: artifacts/data_preprocessing/test.csv
+  test_size: 0.2
+  model_dir: artifacts/training/model
+
+prediction:
+  model_path: artifacts/training/model/model.joblib
+  preprocessor_path: artifacts/training/preprocess_model/preprocess_model.joblib

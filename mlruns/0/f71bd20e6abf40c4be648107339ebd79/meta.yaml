@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sid/Desktop/MLOps%20Projects/NoCaptcha_MLops/mlruns/0/f71bd20e6abf40c4be648107339ebd79/artifacts
+end_time: 1733303612221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f71bd20e6abf40c4be648107339ebd79
+run_name: marvelous-fly-447
+run_uuid: f71bd20e6abf40c4be648107339ebd79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733303601513
+status: 3
+tags: []
+user_id: Sid
