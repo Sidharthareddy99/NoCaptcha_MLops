@@ -1489,3 +1489,131 @@ asyncio.exceptions.CancelledError
 [2024-12-08 18:33:31,910: INFO: on: Application shutdown complete.]
 [2024-12-08 18:33:31,911: INFO: server: Finished server process [21364]]
 [2024-12-08 18:33:32,405: INFO: basereload: Stopping reloader process [20248]]
+[2024-12-08 19:41:24,700: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:24,712: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-08 19:41:25,826: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:26,834: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:26,837: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-08 19:41:26,838: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-08 19:41:26,848: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-08 19:41:26,856: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-08 19:41:26,857: INFO: common: created directory at: artifacts]
+[2024-12-08 19:41:26,999: INFO: config: Will watch for changes in these directories: ['C:\\Users\\Sid\\Desktop\\MLOps Projects\\NoCaptcha_MLops']]
+[2024-12-08 19:41:27,002: INFO: config: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)]
+[2024-12-08 19:41:27,005: INFO: basereload: Started reloader process [8532] using WatchFiles]
+[2024-12-08 19:41:37,076: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:37,084: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-08 19:41:38,297: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:39,346: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-08 19:41:39,350: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-08 19:41:39,351: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-08 19:41:39,359: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-08 19:41:39,362: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-08 19:41:39,363: INFO: common: created directory at: artifacts]
+[2024-12-08 19:41:39,463: INFO: server: Started server process [21108]]
+[2024-12-08 19:41:39,465: INFO: on: Waiting for application startup.]
+[2024-12-08 19:41:39,469: INFO: on: Application startup complete.]
+[2024-12-08 19:41:39,602: ERROR: on: Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sid\Desktop\MLOps Projects\NoCaptcha_MLops\env\Lib\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\Sid\Desktop\MLOps Projects\NoCaptcha_MLops\env\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+]
+[2024-12-08 19:41:40,196: INFO: basereload: Stopping reloader process [8532]]
+[2024-12-09 00:14:45,380: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:14:46,498: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:14:46,507: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-09 00:14:47,625: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-09 00:14:48,639: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:14:48,642: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-09 00:14:48,644: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-09 00:14:48,652: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:14:48,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:14:48,685: INFO: common: created directory at: artifacts]
+[2024-12-09 00:14:48,834: INFO: config: Will watch for changes in these directories: ['C:\\Users\\Sid\\Desktop\\MLOps Projects\\NoCaptcha_MLops']]
+[2024-12-09 00:14:48,838: INFO: config: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)]
+[2024-12-09 00:14:48,851: INFO: basereload: Started reloader process [13016] using WatchFiles]
+[2024-12-09 00:14:59,483: WARNING: tokens: The added token already exists in the token cache, skipping]
+[2024-12-09 00:15:00,634: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:15:00,643: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-09 00:15:02,155: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-09 00:15:03,282: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:15:03,286: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-09 00:15:03,287: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-09 00:15:03,297: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:15:03,299: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:15:03,301: INFO: common: created directory at: artifacts]
+[2024-12-09 00:15:03,391: INFO: server: Started server process [21376]]
+[2024-12-09 00:15:03,395: INFO: on: Waiting for application startup.]
+[2024-12-09 00:15:03,398: INFO: on: Application startup complete.]
+[2024-12-09 00:15:23,230: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:15:23,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:15:23,234: INFO: common: created directory at: artifacts]
+[2024-12-09 00:15:23,235: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-09 00:15:26,674: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:15:26,678: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:15:26,679: INFO: common: created directory at: artifacts]
+[2024-12-09 00:15:26,901: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:15:26,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:15:26,905: INFO: common: created directory at: artifacts]
+[2024-12-09 00:16:37,315: INFO: helpers: Client created. Use the name of the repo (NoCaptcha_MLops) as the name of the bucket]
+[2024-12-09 00:16:46,412: INFO: server: Shutting down]
+[2024-12-09 00:16:46,541: INFO: on: Waiting for application shutdown.]
+[2024-12-09 00:16:46,558: INFO: on: Application shutdown complete.]
+[2024-12-09 00:16:46,570: INFO: server: Finished server process [21376]]
+[2024-12-09 00:16:48,835: INFO: basereload: Stopping reloader process [13016]]
+[2024-12-09 00:40:00,402: WARNING: tokens: The added token already exists in the token cache, skipping]
+[2024-12-09 00:40:01,496: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:40:01,507: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-09 00:40:02,847: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-09 00:40:04,162: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:40:04,166: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-09 00:40:04,168: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-09 00:40:04,186: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:40:04,193: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:40:04,196: INFO: common: created directory at: artifacts]
+[2024-12-09 00:40:57,818: WARNING: tokens: The added token already exists in the token cache, skipping]
+[2024-12-09 00:40:59,069: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:40:59,078: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-09 00:41:00,304: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-09 00:41:01,517: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:41:01,522: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-09 00:41:01,525: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-09 00:41:01,535: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:41:01,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:41:01,542: INFO: common: created directory at: artifacts]
+[2024-12-09 00:41:31,918: WARNING: tokens: The added token already exists in the token cache, skipping]
+[2024-12-09 00:41:33,155: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:41:33,167: INFO: helpers: Accessing as Sidharthareddy99]
+[2024-12-09 00:41:34,410: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Sidharthareddy99/NoCaptcha_MLops "HTTP/1.1 200 OK"]
+[2024-12-09 00:41:35,618: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-12-09 00:41:35,622: INFO: helpers: Initialized MLflow to track repo "Sidharthareddy99/NoCaptcha_MLops"]
+[2024-12-09 00:41:35,625: INFO: helpers: Repository Sidharthareddy99/NoCaptcha_MLops initialized!]
+[2024-12-09 00:41:35,639: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-09 00:41:35,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-09 00:41:35,647: INFO: common: created directory at: artifacts]

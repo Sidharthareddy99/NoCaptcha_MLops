@@ -1,4 +1,6 @@
 import os
+import dagshub.auth
+import dagshub.auth.token_auth
 import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
@@ -7,7 +9,9 @@ import joblib
 import mlflow
 import mlflow.sklearn
 import dagshub
+dagshub.auth.add_app_token(token='3d3040aeacd891d2b4577b5aa843fafb22081517')
 dagshub.init(repo_owner='Sidharthareddy99', repo_name='NoCaptcha_MLops', mlflow=True)
+
 
 class ModelBuildingPipeline:
     def __init__(self, config):
