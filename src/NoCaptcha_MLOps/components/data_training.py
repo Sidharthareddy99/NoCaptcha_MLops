@@ -6,6 +6,8 @@ from sklearn.metrics import accuracy_score, classification_report
 import joblib
 import mlflow
 import mlflow.sklearn
+import dagshub
+dagshub.init(repo_owner='Sidharthareddy99', repo_name='NoCaptcha_MLops', mlflow=True)
 
 class ModelBuildingPipeline:
     def __init__(self, config):
@@ -25,7 +27,7 @@ class ModelBuildingPipeline:
 
     def preprocess_data(self, data):
         print("Starting Data Preprocessing...")
-        # # Separate features and target
+        # Separate features and target
         X = data.drop("Result", axis=1)
         y = data["Result"]
         return X, y
@@ -58,7 +60,7 @@ class ModelBuildingPipeline:
         report = classification_report(y_test, y_pred)
         print(f"Accuracy: {accuracy}")
         print(f"Classification Report:\n{report}")
-        
+        return accuracy, report
 
     def save_model(self, model):
         print(f"Saving model to {self.config.model_dir}...")
@@ -71,10 +73,28 @@ class ModelBuildingPipeline:
         mlflow.sklearn.log_model(model, "model")
 
     def run_pipeline(self):
-        data = self.load_data()
-        X, y = self.preprocess_data(data)
-        X_train, X_test, y_train, y_test = self.split_data(X, y)
-        model = self.train_model(X_train, y_train)
-        self.evaluate_model(model, X_test, y_test)
-        self.save_model(model)
-        print("Model building pipeline completed!")
+        mlflow.set_experiment("ModelBuildingExperiment")
+        with mlflow.start_run():
+            data = self.load_data()
+            X, y = self.preprocess_data(data)
+            X_train, X_test, y_train, y_test = self.split_data(X, y)
+            model = self.train_model(X_train, y_train)
+            accuracy, report = self.evaluate_model(model, X_test, y_test)
+            self.save_model(model)
+
+            # Log parameters
+            mlflow.log_params({
+                "train_data_path": self.train_data_path,
+                "test_data_path": self.test_data_path,
+                "test_size": self.test_size,
+                "model_save_path": self.model_save_path
+            })
+
+            # Log best model parameters
+            best_params = model.get_params()
+            mlflow.log_params(best_params)
+
+            # Log metrics
+            mlflow.log_metric("accuracy", accuracy)
+
+            print("Model building pipeline completed!")

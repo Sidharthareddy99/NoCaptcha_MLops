@@ -12,5 +12,7 @@ joblib
 types-PyYAML
 fastapi[standard]
 uvicorn
+dagshub
+pymongo
 
 

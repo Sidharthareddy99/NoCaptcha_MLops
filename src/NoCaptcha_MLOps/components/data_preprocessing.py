@@ -85,7 +85,8 @@ class DataPreprocessingPipeline:
         
         # Split the data into training and testing sets
         X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y, test_size=self.test_size, random_state=42)
-        actual_train_data, actual_test_data = train_test_split(data, test_size=self.test_size, random_state=42)
+        datam = data.drop("Result", axis=1)
+        actual_train_data, actual_test_data = train_test_split(datam, test_size=self.test_size, random_state=42)
 
 
         # Get feature names after transformation
@@ -98,6 +99,6 @@ class DataPreprocessingPipeline:
 
         # Save the splits to separate files
         train_data.to_csv(self.train_data_path, index=False)
-        actual_test_data.to_csv(self.test_data_path, index=False)
+        actual_test_data.to_json(self.test_data_path, orient='records')
         
         print("Data Preprocessing Pipeline completed.")

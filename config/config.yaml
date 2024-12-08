@@ -9,14 +9,14 @@ data_ingestion:
 data_preprocessing:
   root_dir : artifacts/data_ingestion/data.csv
   train_data_path : artifacts/data_preprocessing/train.csv
-  test_data_path: artifacts/data_preprocessing/test.csv
+  test_data_path: artifacts/data_preprocessing/test.json
   test_size: 0.1
   preprocess_model_save_path: artifacts/training/preprocess_model/preprocess_model.joblib
 
 data_training:
   root_dir : artifacts/data_ingestion/data.csv
   train_data_path : artifacts/data_preprocessing/train.csv
-  test_data_path: artifacts/data_preprocessing/test.csv
+  test_data_path: artifacts/data_preprocessing/test.json
   test_size: 0.2
   model_dir: artifacts/training/model
 
