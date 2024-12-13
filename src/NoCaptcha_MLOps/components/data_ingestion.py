@@ -1,13 +1,20 @@
 import pymongo
 import pandas as pd
 from src.NoCaptcha_MLOps.entity.config_entity import DataIngestion
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 class DataIngestion:
     def __init__(self, config: DataIngestion):
+        self.MONGO_URI = os.getenv("MONGO_URI")
+        self.DATABASE_NAME = os.getenv("DATABASE_NAME")
+        self.COLLECTION_NAME = os.getenv("COLLECTION_NAME")
         self.config = config
-        self.client = pymongo.MongoClient(self.config.mongo_uri)
-        self.database = self.client[self.config.database_name]
-        self.collection = self.database[self.config.collection_name]
+        self.root_dir = config.root_dir
+        self.client = pymongo.MongoClient(self.MONGO_URI)
+        self.database = self.client[self.DATABASE_NAME]
+        self.collection = self.database[self.COLLECTION_NAME]
     
     def fetch_data_from_mongodb(self):
         # Fetch all documents from the MongoDB collection

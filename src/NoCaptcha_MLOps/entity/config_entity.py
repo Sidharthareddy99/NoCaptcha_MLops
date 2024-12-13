@@ -5,9 +5,6 @@ from pathlib import Path
 @dataclass
 class DataIngestion:
     root_dir: Path
-    mongo_uri: str
-    database_name: str
-    collection_name: str
 
 @dataclass
 class DataPreprocessing:

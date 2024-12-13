@@ -9,7 +9,10 @@ import joblib
 import mlflow
 import mlflow.sklearn
 import dagshub
-dagshub.auth.add_app_token(token='3d3040aeacd891d2b4577b5aa843fafb22081517')
+from dotenv import load_dotenv
+load_dotenv()
+DAGS_HUB_TOKEN = os.getenv("DAGS_HUB_TOKEN")
+dagshub.auth.add_app_token(token=DAGS_HUB_TOKEN)
 dagshub.init(repo_owner='Sidharthareddy99', repo_name='NoCaptcha_MLops', mlflow=True)
 
 

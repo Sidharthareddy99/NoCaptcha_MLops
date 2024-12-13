@@ -4,14 +4,8 @@ from src.NoCaptcha_MLOps.entity.config_entity import DataIngestion, DataPreproce
 
 
 class ConfigManager:
-    def __init__(self, 
-                    config_file_path= CONFIG_FILE_PATH,
-                    params_file_path= PARAMS_FILE_PATH,
-                    schema_file_path= SCHEMA_FILE_PATH
-                    ):
+    def __init__(self, config_file_path= CONFIG_FILE_PATH):
         self.config = read_yaml(config_file_path)
-        self.params = read_yaml(params_file_path)
-
         create_directories([self.config.artifacts_root])
 
     
@@ -20,10 +14,7 @@ class ConfigManager:
         create_directories([config.root_dir])
 
         data_ingestion_config = DataIngestion(
-            root_dir= config.root_dir,
-            mongo_uri= config.mongo_uri,
-            collection_name= config.collection_name,
-            database_name= config.database_name
+            root_dir= config.root_dir
             )
         return data_ingestion_config
     

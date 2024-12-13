@@ -1,6 +1,0 @@
-artifacts_root: artifacts
-
-data_preprocessing:
-  root_data_dir: artifacts/data_ingestion
-  train_data_dir: artifacts/preprocessing/train
-  test_data_dir: artifacts/preprocessing/test
