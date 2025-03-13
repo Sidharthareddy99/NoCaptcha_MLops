@@ -4,9 +4,19 @@ from pydantic import BaseModel
 from src.NoCaptcha_MLOps.pipeline.prediction_pipeline import PredictionPipeline
 from src.NoCaptcha_MLOps.pipeline.training_pipeline import DataIngestionPipeline, DataPreprocessingPipeline, DataTrainingPipeline
 import numpy as np
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
 prediction_pipeline = PredictionPipeline()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 class PredictionInput(BaseModel):
     Mouse_Path_Length: float
