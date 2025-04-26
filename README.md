@@ -1,6 +1,6 @@
-# 🛡️ NoCaptcha_MLOps
+# 🛡️ NoCaptcha
 
-Welcome to **NoCaptcha_MLOps**! 🎉 This project is your new favorite superhero against CAPTCHA abuse. Think of it as the Batman of the internet, but instead of batarangs, we’re using machine learning pipelines! 🦇🤖
+Welcome to **NoCaptcha**! 🎉 This project is your new favorite superhero against CAPTCHA abuse. Think of it as the Batman of the internet, but instead of batarangs, we’re using machine learning pipelines! 🦇🤖
 
 ## Demo: [nocaptcha.tech](https://nocaptcha.tech)
 
@@ -8,11 +8,11 @@ Welcome to **NoCaptcha_MLOps**! 🎉 This project is your new favorite superhero
 
 ## 📜 Project Overview
 
-### What is NoCaptcha_MLOps? 🤔
+### What is NoCaptcha? 🤔
 
-NoCaptcha_MLOps is a machine learning-based solution that combats CAPTCHA abuse with style and precision. Imagine a bouncer at a fancy club, but for your website. It detects shady bots, gives them a polite "nope," and ensures your website stays bot-free and fabulous. 💃
+NoCaptcha is a machine learning-based solution that combats CAPTCHA abuse with style and precision. Imagine a bouncer at a fancy club, but for your website. It detects shady bots, gives them a polite "nope," and ensures your website stays bot-free and fabulous. 💃
 
-### Why NoCaptcha_MLOps? 🌟
+### Why NoCaptcha? 🌟
 
 CAPTCHAs are the internet’s version of "Are you a robot?" But let’s face it—some bots are just too clever. That’s where we step in. This project beefs up CAPTCHA security with machine learning, turning your CAPTCHA into Fort Knox. Let’s make the web a safer (and cooler) place! 🌐
 
